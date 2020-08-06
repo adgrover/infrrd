@@ -18,7 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @RestController
-@RequestMapping("api/v1/banking")
+@RequestMapping("/api/v1/banking")
 public class BankController {
 
     @Autowired
